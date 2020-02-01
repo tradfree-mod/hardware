@@ -1,0 +1,14 @@
+(module pogopin (layer F.Cu) (tedit 5E307795)
+  (fp_text reference REF** (at 0 2.25) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value pogopin (at 0 -2.25) (layer F.Fab) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole circle (at 0 0) (size 3 3) (drill 1) (layers *.Mask F.Cu))
+  (model ${KIPRJMOD}/pogopin.wrl
+    (at (xyz 0 0 0))
+    (scale (xyz 0.5 0.5 0.5))
+    (rotate (xyz 0 0 0))
+  )
+)
