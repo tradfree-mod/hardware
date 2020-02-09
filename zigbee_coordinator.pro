@@ -1,4 +1,4 @@
-update=mar 28 gen 2020, 20:36:43
+update=sab 8 feb 2020, 18:08:49
 version=1
 last_client=kicad
 [general]
@@ -25,7 +25,7 @@ ERC_TestSimilarLabels=1
 [pcbnew]
 version=1
 PageLayoutDescrFile=
-LastNetListRead=
+LastNetListRead=zigbee_coordinator.net
 CopperLayerCount=2
 BoardThickness=0.8
 AllowMicroVias=0
@@ -38,7 +38,7 @@ MinViaDrill=0.254
 MinMicroViaDiameter=0.2
 MinMicroViaDrill=0.09999999999999999
 MinHoleToHole=0.25
-TrackWidth1=0.1524
+TrackWidth1=0.2
 ViaDiameter1=0.508
 ViaDrill1=0.254
 dPairWidth1=0.2
@@ -238,7 +238,7 @@ Enabled=0
 [pcbnew/Netclasses/Default]
 Name=Default
 Clearance=0.1524
-TrackWidth=0.1524
+TrackWidth=0.2
 ViaDiameter=0.508
 ViaDrill=0.254
 uViaDiameter=0.3
@@ -248,10 +248,10 @@ dPairGap=0.25
 dPairViaGap=0.25
 [pcbnew/Netclasses/1]
 Name=Power
-Clearance=0.1524
-TrackWidth=0.25
-ViaDiameter=0.8
-ViaDrill=0.5
+Clearance=0.2
+TrackWidth=0.3
+ViaDiameter=0.6
+ViaDrill=0.3
 uViaDiameter=0.3
 uViaDrill=0.1
 dPairWidth=0.2
