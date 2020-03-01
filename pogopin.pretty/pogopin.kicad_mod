@@ -1,11 +1,11 @@
-(module pogopin (layer F.Cu) (tedit 5E3EDF8B)
+(module pogopin (layer F.Cu) (tedit 5E5BB659)
   (fp_text reference REF** (at 0 2.25) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (fp_text value pogopin (at 0 -2.25) (layer F.Fab) hide
     (effects (font (size 1 1) (thickness 0.15)))
   )
-  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
+  (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu B.Mask))
   (pad 1 smd circle (at 0 0) (size 3 3) (layers F.Cu F.Paste F.Mask))
   (model ${KIPRJMOD}/pogopin.wrl
     (at (xyz 0 0 0))
