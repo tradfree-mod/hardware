@@ -198,7 +198,7 @@
     (add_net VCC_CONN)
   )
 
-  (module pogopin:pogopin (layer B.Cu) (tedit 5E5BB659) (tstamp 5E3F8330)
+  (module pogopin:pogopin (layer B.Cu) (tedit 5E5CA2C1) (tstamp 5E3F8330)
     (at 96.835 118.59 180)
     (path /5E3B8C88)
     (fp_text reference J6 (at 0 -2.25) (layer B.SilkS)
@@ -211,14 +211,14 @@
       (net 20 VCC_CONN))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu F.Mask)
       (net 20 VCC_CONN))
-    (model ${KIPRJMOD}/pogopin.wrl
+    (model ${KIPRJMOD}/pogopin.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1.3 1.3 1.3))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pogopin:pogopin (layer B.Cu) (tedit 5E5BB659) (tstamp 5E389887)
+  (module pogopin:pogopin (layer B.Cu) (tedit 5E5CA2C1) (tstamp 5E389887)
     (at 121.21 120.415 180)
     (path /5E3BAC0A)
     (fp_text reference J11 (at 0 -2.25) (layer B.SilkS)
@@ -231,14 +231,14 @@
       (net 26 /RxD))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu F.Mask)
       (net 26 /RxD))
-    (model ${KIPRJMOD}/pogopin.wrl
+    (model ${KIPRJMOD}/pogopin.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1.3 1.3 1.3))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pogopin:pogopin (layer B.Cu) (tedit 5E5BB659) (tstamp 5E389918)
+  (module pogopin:pogopin (layer B.Cu) (tedit 5E5CA2C1) (tstamp 5E389918)
     (at 121.21 123.665 180)
     (path /5E3BAC00)
     (fp_text reference J10 (at 0 -2.25) (layer B.SilkS)
@@ -251,14 +251,14 @@
       (net 19 /TXD))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu F.Mask)
       (net 19 /TXD))
-    (model ${KIPRJMOD}/pogopin.wrl
+    (model ${KIPRJMOD}/pogopin.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1.3 1.3 1.3))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pogopin:pogopin (layer B.Cu) (tedit 5E5BB659) (tstamp 5E3F82F4)
+  (module pogopin:pogopin (layer B.Cu) (tedit 5E5CA2C1) (tstamp 5E3F82F4)
     (at 93.585 125.09 180)
     (path /5E3B91FA)
     (fp_text reference J9 (at 0 -2.25) (layer B.SilkS)
@@ -271,14 +271,14 @@
       (net 1 GND))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu F.Mask)
       (net 1 GND))
-    (model ${KIPRJMOD}/pogopin.wrl
+    (model ${KIPRJMOD}/pogopin.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1.3 1.3 1.3))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pogopin:pogopin (layer B.Cu) (tedit 5E5BB659) (tstamp 5E3F8312)
+  (module pogopin:pogopin (layer B.Cu) (tedit 5E5CA2C1) (tstamp 5E3F8312)
     (at 96.835 125.09 180)
     (path /5E3B9047)
     (fp_text reference J8 (at 0 -2.25) (layer B.SilkS)
@@ -291,14 +291,14 @@
       (net 15 /SWDCK))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu F.Mask)
       (net 15 /SWDCK))
-    (model ${KIPRJMOD}/pogopin.wrl
+    (model ${KIPRJMOD}/pogopin.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1.3 1.3 1.3))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pogopin:pogopin (layer B.Cu) (tedit 5E5BB659) (tstamp 5E3F8321)
+  (module pogopin:pogopin (layer B.Cu) (tedit 5E5CA2C1) (tstamp 5E3F8321)
     (at 96.835 121.84 180)
     (path /5E3B8E8B)
     (fp_text reference J7 (at 0 -2.25) (layer B.SilkS)
@@ -311,14 +311,14 @@
       (net 16 /SWDIO))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu F.Mask)
       (net 16 /SWDIO))
-    (model ${KIPRJMOD}/pogopin.wrl
+    (model ${KIPRJMOD}/pogopin.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1.3 1.3 1.3))
       (rotate (xyz 0 0 0))
     )
   )
 
-  (module pogopin:pogopin (layer B.Cu) (tedit 5E5BB659) (tstamp 5E3F8303)
+  (module pogopin:pogopin (layer B.Cu) (tedit 5E5CA2C1) (tstamp 5E3F8303)
     (at 96.835 115.34 180)
     (path /5E3B8389)
     (fp_text reference J5 (at 0 -2.25) (layer B.SilkS)
@@ -331,9 +331,9 @@
       (net 27 RESET_OUT))
     (pad 1 thru_hole circle (at 0 0 180) (size 2 2) (drill 1) (layers *.Cu F.Mask)
       (net 27 RESET_OUT))
-    (model ${KIPRJMOD}/pogopin.wrl
+    (model ${KIPRJMOD}/pogopin.step
       (at (xyz 0 0 0))
-      (scale (xyz 0.5 0.5 0.5))
+      (scale (xyz 1.3 1.3 1.3))
       (rotate (xyz 0 0 0))
     )
   )
